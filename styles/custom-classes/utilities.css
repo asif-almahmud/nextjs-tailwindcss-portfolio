@@ -1,0 +1,7 @@
+@tailwind utilities;
+
+@layer utilities {
+  .text-2xs {
+    font-size: 10px;
+  }
+}
