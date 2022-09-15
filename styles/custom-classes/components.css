@@ -29,6 +29,10 @@
     
       active:bg-green-700;
   }
+
+  .animated-underline {
+    @apply flex flex-col after:content-[''] relative after:absolute after:-bottom-1 after:left-0 after:h-1 after:w-0 after:bg-black  hover:after:w-full after:duration-150 after:ease-in;
+  }
 }
 
 /* -> If we want to write the style for different break points in the same styling blocks then @screen directive will be very handy */

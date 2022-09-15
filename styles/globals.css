@@ -40,5 +40,30 @@
 }
 
 body {
-  background-color: #c4cacd;
+  /* background-color: #090016d8; */
+  /* background-color: rgba(58, 2, 70, 0.863); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100vw 100vh;
+  object-fit: cover;
+  color: rgb(252, 255, 57);
+  color: rgb(255, 255, 255); */
+  /* box-shadow: 0px 0px 0px 3000px rgba(58, 2, 70, 0.863),
+    inset 0 0 0 3000px rgba(58, 2, 70, 0.863); */
 }
+
+/*
+"activityBar.background": "#3f3551",
+"statusBar.background": "#3f3551",
+// "editor.background": "#423408",
+// "editor.background": "#001E3C",
+"editor.background": "#302640b0",
+// "sideBar.background": "#433609",
+// "sideBar.background": "#00152b",
+"sideBar.background": "#382d49",
+// "terminal.background": "#47390b",
+// "terminal.background": "#00152b",
+"terminal.background": "#3a304b",
+// "minimap.background": "#50400a86"
+// "minimap.background": "#303030b0"
+"minimap.background": "#3f3551"
+*/
