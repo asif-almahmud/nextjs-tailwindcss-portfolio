@@ -14,20 +14,20 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          "super-light": "#C4CACD",
-          light: "#C4CACD",
-          DEFAULT: "#C4CACD",
-          dark: "#C4CACD",
+          "super-light": "#79889b",
+          light: "#59687b",
+          DEFAULT: "#39485b",
+          dark: "#19283b",
         },
         secondary: {
-          "super-light": "#C4CACD",
-          light: "#8BE68C",
-          DEFAULT: "#C2E77A",
-          dark: "#C4CACD",
+          "super-light": "#e1eEf8",
+          light: "#919ea8",
+          DEFAULT: "#717e88",
+          dark: "#515e68",
         },
       },
       screens: {
-        xs: "320px",
+        xs: "480px",
       },
     },
   },

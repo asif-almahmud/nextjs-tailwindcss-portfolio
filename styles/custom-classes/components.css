@@ -31,7 +31,11 @@
   }
 
   .animated-underline {
-    @apply flex flex-col after:content-[''] relative after:absolute after:-bottom-1 after:left-0 after:h-1 after:w-0 after:bg-black  hover:after:w-full after:duration-150 after:ease-in;
+    @apply flex flex-col after:content-[''] relative after:absolute after:-bottom-1 after:left-0 after:h-1 after:w-0 after:bg-primary-light  hover:after:w-full after:duration-200 after:ease-out hover:after:ease-in;
+  }
+
+  .social-link {
+    @apply w-12 h-12 flex justify-center items-center duration-200 ease-in hover:scale-125;
   }
 }
 
