@@ -13,6 +13,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        flat: {
+          DEFAULT: "#fbfcfd",
+          dark: "#ebeced",
+        },
         primary: {
           "super-light": "#79889b",
           light: "#59687b",

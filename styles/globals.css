@@ -39,10 +39,17 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #fbfcfd;
+  /* background-color: #fbfcfd; */
+  background-color: #f6f7f9;
   color: #39485b;
-  /* scroll-behavior: smooth; */
+
+  transition: all 200ms ease-in-out;
+  overflow-x: hidden;
 }
 
 .min-height-fill {
@@ -52,5 +59,18 @@ body {
 @media only screen and (min-width: 640px) {
   .min-height-fill {
     min-height: calc(100vh - 5rem);
+  }
+}
+
+.smooth-entry {
+  animation: smooth-apprearance 800ms ease-in-out;
+}
+
+@keyframes smooth-apprearance {
+  0% {
+    transform: translateY(-20vh) scale(1.5);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
   }
 }

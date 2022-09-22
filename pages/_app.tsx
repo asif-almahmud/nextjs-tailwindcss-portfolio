@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
 import { Navbar } from "../components/Navbar";
-import { Next } from "../components/Next";
+import { NavButton } from "../components/NavButton";
 import { Socialbar } from "../components/Socialbar";
 import "../styles/globals.css";
 
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Navbar />
       <Socialbar />
-      <Next />
+      <NavButton />
       <Component {...pageProps} />
     </>
   );

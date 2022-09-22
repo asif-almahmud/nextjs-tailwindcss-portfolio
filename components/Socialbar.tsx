@@ -9,7 +9,7 @@ type Props = {};
 
 export const Socialbar = (props: Props) => {
   return (
-    <ul className="scale-75 sm:scale-100 fixed flex bottom-2 left-[50%] -translate-x-[50%] sm:flex-col sm:top-[50%] sm:left-0 sm:bottom-auto sm:translate-x-0 sm:-translate-y-[50%] border rounded-md z-[999]">
+    <ul className="scale-75 sm:scale-100 fixed flex bottom-2 left-[50%] -translate-x-[50%] sm:flex-col sm:top-[50%] sm:left-0 sm:bottom-auto sm:translate-x-0 sm:-translate-y-[50%]  rounded-md z-[999] drop-shadow-md bg-flat">
       <li>
         <Link href="/">
           <a className="social-link">
